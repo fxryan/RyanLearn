@@ -1,0 +1,221 @@
+    /*Định dạng chung*/
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    .daudong {
+        text-indent: 30px;
+    }
+    
+    .chudam {
+        font-weight: bold;
+    }
+    /* điều chỉnh banner*/
+    
+    #banner {
+        color: #f5f6fa;
+        font-weight: 500;
+        background-image: url('../images/banner.jpg');
+        background-size: cover;
+        margin: 1%;
+        padding: 1%;
+        border-radius: 5px;
+        box-shadow: 5px 5px #353b481a;
+    }
+    
+    #banner p,
+    h1 {
+        margin-left: 70px;
+    }
+    /*điều chỉnh bảng thông tin sân bóng*/
+    
+    .info {
+        display: table;
+        margin: 1%;
+        width: 100%;
+        height: max-content;
+        padding: 1%;
+        background-color: #f5f6fa;
+        box-shadow: 5px 5px #353b481a;
+        border-radius: 5px;
+        z-index: 1;
+    }
+    
+    .info h2 {
+        padding: 20px 0 20px 0;
+    }
+    
+    .info li {
+        margin-left: 20px;
+    }
+    
+    .info img {
+        width: 80%;
+        border-radius: 5px;
+        margin-left: 10%;
+        border: 1px solid #44bd32;
+    }
+    
+    .info a {
+        margin: 5px;
+    }
+    
+    .info a:hover {
+        color: #2f3640;
+        /* background-color: #eef5ff; */
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    /*Điều chỉnh bảng chọn sân bóng bên phải*/
+    
+    .chonsan {
+        background-color: #f5f6fa;
+        height: max-content;
+        box-shadow: 5px 5px #353b481a;
+        border-radius: 5px;
+        margin: 0% 1.5%;
+        padding: 1%;
+        width: 35%;
+        display: block;
+        float: right;
+        display: none;
+    }
+    
+    .chonsan img {
+        margin: 11.7% 5%;
+        display: block;
+        width: 86.7%;
+        height: max-content;
+        border: 1px solid #7f8fa6;
+        border-radius: 5px;
+        box-shadow: 5px 5px #353b481a;
+    }
+    
+    .chonsan div {
+        margin-bottom: 10px;
+    }
+    
+    .chonsan img:hover {
+        border-radius: 20px;
+    }
+    /*Điều chỉnh footer*/
+    
+    footer {
+        border-radius: 5px;
+        box-shadow: 5px 5px #353b481a;
+        background-color: #7f8fa6;
+        margin: 1%;
+        color: #f5f6fa;
+        clear: both;
+    }
+    
+    footer div {
+        text-align: center;
+        background-color: #7f8fa6;
+    }
+    
+    footer ul {
+        padding: 1%;
+        text-align: center;
+    }
+    
+    footer li {
+        list-style-type: none;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #f5f6fa;
+    }
+    
+    footer a:hover {
+        color: #7f8fa6;
+        font-weight: bold;
+        background-color: #f5f6fa;
+        border-radius: 5px;
+    }
+    /*Style hình ảnh phần xem chi tiết*/
+    
+    .hinhanh {
+        background-color: #f5f6fa;
+        display: table;
+        margin: 1%;
+        width: 100%;
+        height: max-content;
+        padding: 1%;
+        box-shadow: 5px 5px #353b481a;
+        border-radius: 5px;
+        z-index: 1;
+    }
+    
+    .hinhanh img {
+        border-radius: 5px;
+        width: 98%;
+        margin-left: 1%;
+        border: 1px solid #44bd32;
+    }
+    
+    .hinhanh p,
+    h2 {
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    .nutdatsan {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 1%;
+        border-radius: 5px;
+        border: 2px solid #487eb0;
+        clear: both;
+    }
+    
+    .nutdatsan a {
+        text-decoration: none;
+        animation: nhapnhay 1s infinite;
+    }
+    /*animation*/
+    
+    @keyframes nhapnhay {
+        0% {
+            color: #7f8fa6;
+        }
+        50% {
+            color: #40739e;
+        }
+        100% {
+            color: #192a56;
+        }
+    }
+    
+    @keyframes laclu {
+        0% {
+            top: 5px;
+        }
+        25% {
+            top: 10px;
+        }
+        50% {
+            top: 20px;
+        }
+        75% {
+            top: 10px;
+        }
+        100% {
+            top: 5px;
+        }
+    }

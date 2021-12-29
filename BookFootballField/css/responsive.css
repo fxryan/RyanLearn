@@ -1,0 +1,116 @@
+@media screen and (min-width: 768px) {
+    .dieuHuong ul {
+        display: inline-flex;
+        position: relative;
+        width: 50%;
+        margin-left: 10%;
+    }
+    .icon {
+        display: none;
+    }
+    footer ul {
+        width: 50%;
+        float: left;
+    }
+    footer {
+        height: 150px;
+    }
+    .chonsan {
+        display: block;
+    }
+    .info {
+        width: 60%;
+    }
+    .hinhanh {
+        width: 60%;
+    }
+    .hinhanh p {
+        font-size: large;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .roiXuong {
+        left: 17%;
+        width: 70%;
+    }
+}
+
+
+/* @media screen (min-width: 1514px) {} */
+
+
+/* Không sử dụng bootstrap
+
+.dieuHuong {
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.dieuHuong img {
+    position: absolute;
+    top: 1%;
+    padding: 1%;
+    margin-left: 2%;
+    animation: laclu 500ms infinite;
+}
+
+.dieuHuong ul {
+    text-align: center;
+    margin-top: 3%;
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    top: 8%;
+    border-radius: 20px;
+}
+
+.dieuHuong ul::before {
+    content: "";
+    pointer-events: auto;
+}
+
+.dieuHuong li {
+    clear: both;
+    list-style-type: none;
+    padding: 2%;
+    width: 100%;
+}
+
+.dieuHuong a {
+    color: #44bd32;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dieuHuong li:hover,
+.dieuHuong a:hover {
+    background-color: #dcdde1;
+    color: #0097e6;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.icon {
+    float: right;
+    font-size: 220%;
+    padding: 3% 1% 1% 1%;
+    margin-right: 3%;
+    display: block;
+    color: #6ab04c;
+}
+
+.bienMat {
+    display: none;
+}
+
+.roiXuong {
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.roiXuong a {
+    margin-left: 40%;
+} */
